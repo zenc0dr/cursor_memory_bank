@@ -24,6 +24,7 @@ cd ../..
 mkdir -p memory-bank-data
 
 # 6. Скрипт запуска
+mkdir -p scripts
 cat > scripts/start-memory-bank.sh <<'EOF'
 #!/bin/bash
 export MEMORY_BASE_PATH="$(pwd)/memory-bank-data"
